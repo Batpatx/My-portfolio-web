@@ -1,0 +1,13 @@
+import random
+
+def generar_numero():
+    numero = "0220"
+    for _ in range(34):
+        digito = random.randint(1, 9)  # Evitar el 0 al principio
+        numero += str(digito)
+    return numero
+
+# Generar 10 números aleatorios
+for _ in range(10):
+    print(generar_numero())
+    

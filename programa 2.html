@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Aleatorios</title>
+    <script>
+        function generarNumeros() {
+            for (let i = 0; i < 10; i++) {
+                let numero = "0220";
+                for (let j = 0; j < 34; j++) {
+                    let digito = Math.floor(Math.random() * 9) + 1;
+                    numero += digito;
+                }
+                console.log(numero);
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <button onclick="generarNumeros()">Generar Números Aleatorios</button>
+
+</body>
+</html>
+
+
+
