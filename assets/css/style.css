@@ -33,6 +33,22 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.container-all {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-wrapper {
+  shape-outside:radial-gradient(); /* Forma el texto alrededor de la imagen circular */
+  float: left; /* Permite que el texto flote alrededor de la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+  margin-bottom: 20px;
+}
+
+.text-justify p {
+  text-align: justify; /* Justifica el texto */
+}
+
 /*--------------------------------------------------------------
 # BOTÓN NUEVO
 --------------------------------------------------------------*/
